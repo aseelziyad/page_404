@@ -1,0 +1,62 @@
+body {color: #2f80ed;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+.error-box {
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.error-image{ 
+  width: 520px;
+  height: 190px;
+  text-align: center;
+  justify-content: center;
+ display: block;
+  margin-top: 110px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 380px;
+  padding-left: 380px;
+}
+.error-number{
+  font-size: 120px;
+  line-height: 140px;
+  font-weight: 400;
+  text-align:center;
+  padding-right: 440px;
+  padding-left: 440px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.error-msg{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  opacity: 0;
+  text-align: center;
+  padding-right: 440px;
+  padding-left: 440px;
+  margin: 0px auto;
+}
+.error-number:hover + .error-msg{
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+}
+footer {
+  margin-bottom: 30px;
+  margin-top: 150px;
+}
+.redirect-link {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: normal;
+  text-align: center;
+  padding-left: 440px;
+  padding-right: 440px;
+  margin-bottom: 30px;
+  margin-top: 150px;
+}
+a {
+  color: #2f80ed;
+}
